@@ -1,0 +1,45 @@
+{
+    "parser"  : "babel-eslint",
+    "extends" : [
+     "airbnb-base",
+    #  "eslint:recommended",
+    #  "standard-react"
+    ],
+    "plugins" : [
+      # "flow-vars"
+      # "react"
+    ],
+    "env"     : {
+    },
+    "globals" : {
+        "jQuery"      : false,
+        "window"      : true,
+        "document"      : true,
+        "ModalWorkflow"      : true,
+    },
+    "rules": {
+        "no-console": 1,
+        #"indent" : [1, 4],
+        "semi": 0,
+        "max-len": 0,
+        "new-cap": 0,
+        "no-unused-vars": [1, {"vars": "all", "args": "none"}],
+        "dot-notation": 0,
+        "no-trailing-spaces": 1,
+        "no-param-reassign": 0,
+        "object-shorthand": ["error", "properties"],
+        "func-names": 0,
+        "prefer-template": 0,
+
+        # "space-in-parens": 0,
+        # "spaced-comment": 0,
+        # "operator-linebreak": 0,
+        # "semi" : [2, "never"],
+        # "space-infix-ops": 0,
+        # "max-len": [2, 120, 2],
+        # "flow-vars/define-flow-type": 1,
+        # "flow-vars/use-flow-type": 1,
+#        "space-before-function-paren" : [2, "never"]
+    }
+
+}

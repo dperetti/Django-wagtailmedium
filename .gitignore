@@ -1,0 +1,4 @@
+.tags
+.python-version
+project/dist
+test_project/mysite/static

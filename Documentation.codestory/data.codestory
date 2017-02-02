@@ -1,0 +1,1417 @@
+{
+    "editable": false,
+    "fileExtensions": [
+        "Dockerfile",
+        "css",
+        "h",
+        "html",
+        "js",
+        "less",
+        "m",
+        "php",
+        "py",
+        "sass",
+        "sh",
+        "yml"
+    ],
+    "focusedItemRef": null,
+    "images": [
+        {
+            "ref": "1a179310-b817-11e6-9f99-f91930e01b01",
+            "size": {
+                "height": 261,
+                "width": 747
+            }
+        },
+        {
+            "ref": "b83d87d0-e35e-11e6-a6ae-8fbbda5d6d0b",
+            "size": {
+                "height": 62,
+                "width": 688
+            }
+        }
+    ],
+    "maxNumberOfFiles": "1000",
+    "name": "Django-wagtailmedium",
+    "notes": [
+        {
+            "items": [
+                {
+                    "content": "<p>The <code class=\"code\">wagtailmedium.js</code> is built from the <code class=\"code\">main.js</code> entry.</p>",
+                    "ref": "adc23c80-badf-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "kind": "hint"
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "adc23c81-badf-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "linesAfter": 14,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "8VVkT"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "9af1a5a0-badf-11e6-9652-19a598cd7f8a",
+            "settings": {},
+            "title": "wagtailmedium.js bundle"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p><span data-auto-link=\"true\" data-href=\"https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs\"><a href=\"https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs\">https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs</a></span></p><p><a href=\"https://pypi.python.org/pypi/setuptools-git\"><span data-auto-link=\"true\" data-href=\"https://pypi.python.org/pypi/setuptools-git\">https://pypi.python.org/pypi/setuptools-git</span></a><br></p>",
+                    "ref": "2dff5cb0-c98d-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "Upload to pip",
+                    "ref": "591ef180-c98d-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "heading"
+                },
+                {
+                    "content": [
+                        {
+                            "inserts": [
+                                {
+                                    "pos": 3,
+                                    "type": "PROJECT_DIR"
+                                }
+                            ],
+                            "text": "cd ",
+                            "type": "command"
+                        },
+                        {
+                            "text": "# build distribution",
+                            "type": "result"
+                        },
+                        {
+                            "text": "python setup.py sdist",
+                            "type": "command"
+                        },
+                        {
+                            "text": "# upload",
+                            "type": "result"
+                        },
+                        {
+                            "text": "python setup.py sdist upload",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "43843e20-c98d-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "shell"
+                }
+            ],
+            "ref": "2b79c340-c98d-11e5-82ac-c145e5c0a4b3",
+            "settings": {},
+            "title": "update to PyPi"
+        },
+        {
+            "items": [
+                {
+                    "content": [
+                        {
+                            "text": "pip install django",
+                            "type": "command"
+                        },
+                        {
+                            "text": "pip install ipdb",
+                            "type": "result"
+                        },
+                        {
+                            "text": "pip install -e /Django-SmartDBStorage/",
+                            "type": "command"
+                        },
+                        {
+                            "text": "cd /home",
+                            "type": "command"
+                        },
+                        {
+                            "text": "django-admin startproject project",
+                            "type": "command"
+                        },
+                        {
+                            "text": "cd project",
+                            "type": "command"
+                        },
+                        {
+                            "text": "django-admin startapp smartdbtest",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "78338610-c999-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "shell"
+                },
+                {
+                    "content": "<p><code class=\"code\">smartdbstorage</code> was then added manually :</p>",
+                    "ref": "f17bcd70-c999-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "ecaa6f40-c999-11e5-82ac-c145e5c0a4b3",
+                    "settings": {
+                        "linesAfter": 1,
+                        "linesBefore": 7,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "tGLCN"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "751e2fc0-c999-11e5-82ac-c145e5c0a4b3",
+            "settings": {
+                "hiddenFromTOC": true
+            },
+            "title": "New project creation"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>This note describes how to add wagtailmedium to your wagtail project</p>",
+                    "ref": "32aade40-e40f-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": [
+                        {
+                            "text": "pip install django-wagtailmedium",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "714e7510-b815-11e6-9f99-f91930e01b01",
+                    "settings": {},
+                    "type": "shell"
+                },
+                {
+                    "content": "Add wagtailmedium to your apps",
+                    "ref": "e49b6070-e347-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": null,
+                    "ref": "4c91cf80-b426-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 1,
+                        "linesBefore": 2,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "5Qt4W"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "Add a wagtailmedium to&nbsp;WAGTAILADMIN_RICH_TEXT_EDITORS",
+                    "ref": "f03b2550-e347-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p><code class=\"code\">WAGTAILADMIN_RICH_TEXT_EDITORS</code> is implemented by wagtail but is <a href=\"https://github.com/wagtail/wagtail/pull/2416\">undocumented</a> yet.</p>",
+                    "ref": "17a86080-e348-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "66b42de0-b426-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 25,
+                        "linesBefore": 4,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "buKrd"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "Register whitelister element rules",
+                    "ref": "7ef25520-e348-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>This wagtail&nbsp;<a href=\"http://docs.wagtail.io/en/v1.7/reference/hooks.html#construct-whitelister-element-rules\">hook</a> defines which HTML elements are allowed in rich text areas.</p>",
+                    "ref": "93ec34a0-e348-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "338935a0-b8f4-11e6-9f99-f91930e01b01",
+                    "settings": {
+                        "linesAfter": 7,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "7bFcf"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "Use wagtailmedium in a RichTextField of your model",
+                    "ref": "e93a6e90-e348-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": null,
+                    "ref": "93e9aa60-b426-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 1,
+                        "linesBefore": 7,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "sPKlq"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "19670e40-b426-11e6-bd6c-bf6eeaf3a1d6",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Install"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>The link button is a <a href=\"https://github.com/yabwe/medium-editor/tree/master/src/js/extensions#extensions\">medium editor extension</a> which is derived from the bundled <a href=\"https://github.com/yabwe/medium-editor/blob/b1b0e87eb5b97698d53c48612f8c948153fb0b17/src/js/extensions/anchor.js#L4\">anchor extension</a><span style=\"font-size: 15.4px;\">&nbsp;and adapted to&nbsp;<u>support Wagtail links</u> (pages, documents).</span></p><p>This note describes what is going on when the user clicks this link button.</p>",
+                    "ref": "683bce90-b442-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "b828a041-e35e-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "imageAlign": "center",
+                        "images": [
+                            {
+                                "ref": "b828a040-e35e-11e6-a6ae-8fbbda5d6d0b",
+                                "settings": {
+                                    "imageRef": "b83d87d0-e35e-11e6-a6ae-8fbbda5d6d0b"
+                                }
+                            }
+                        ],
+                        "selectedImageRef": "b828a040-e35e-11e6-a6ae-8fbbda5d6d0b"
+                    },
+                    "type": "imageGroup"
+                },
+                {
+                    "content": "The button is clicked",
+                    "ref": "f091ff80-b442-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": null,
+                    "ref": "0d8e0030-b442-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "3EcPh"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "The wagtail ModalWorkflow is invoked",
+                    "ref": "f755dee0-b442-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p><a href=\"https://github.com/torchbox/wagtail/blob/c6666c6de5e83bf94d18324858c121e6584ba47d/wagtail/wagtailadmin/static_src/wagtailadmin/js/modal-workflow.js#L6\">ModalWorkflow</a> is a javascript function which is made available by the Wagtail admin.&nbsp;</p><p>It's « <i>a framework for modal popups that are loaded via AJAX, allowing navigation to other subpages to happen within the lightbox, and returning a response to the calling page, possibly after several navigation steps</i> ».</p>",
+                    "ref": "b66ca6a0-bb15-11e6-88ef-ab70cf1ec853",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "fc58b7e0-b443-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 18,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "7FsEf"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "data-* attributes are added the the anchor tag",
+                    "ref": "1504ce90-bb16-11e6-88ef-ab70cf1ec853",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": null,
+                    "ref": "fec96e60-bb15-11e6-88ef-ab70cf1ec853",
+                    "settings": {
+                        "linesAfter": 11,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "n5yeT"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "5464c100-b43e-11e6-bd6c-bf6eeaf3a1d6",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Link button"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>You can test wagtailmedium using our Docker environment.</p>",
+                    "ref": "90bf2a80-e55f-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": [
+                        {
+                            "inserts": [
+                                {
+                                    "pos": 3,
+                                    "type": "PROJECT_DIR"
+                                }
+                            ],
+                            "text": "cd ",
+                            "type": "command"
+                        },
+                        {
+                            "text": "build the server image",
+                            "type": "result"
+                        },
+                        {
+                            "text": "docker-compose build",
+                            "type": "command"
+                        },
+                        {
+                            "text": "launch the development server",
+                            "type": "result"
+                        },
+                        {
+                            "text": "docker-compose up website",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "bbd55b60-e55d-11e6-9727-abb020c22770",
+                    "settings": {
+                        "noteRef": "f3757820-e55d-11e6-9727-abb020c22770"
+                    },
+                    "type": "shell"
+                },
+                {
+                    "content": "<p>Connect to the website at <a href=\"http://127.0.0.1:8000\">http://127.0.0.1:8000</a>.</p>",
+                    "ref": "e6c51bb0-e55f-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "<p>If you're using a local docker machine, the address to connect to might be different.</p>",
+                    "ref": "1540acc0-e560-11e6-9727-abb020c22770",
+                    "settings": {
+                        "kind": "important"
+                    },
+                    "type": "text"
+                }
+            ],
+            "ref": "21173660-e41e-11e6-9727-abb020c22770",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Test project"
+        },
+        {
+            "items": [
+                {
+                    "content": null,
+                    "ref": "c6a9bcd0-bad2-11e6-b645-b93d7aab43b9",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 30,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "6APKx"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "d677c210-bad2-11e6-b645-b93d7aab43b9",
+                    "settings": {
+                        "linesAfter": 5,
+                        "linesBefore": 1,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "QldS5"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "dd8c8090-bad2-11e6-b645-b93d7aab43b9",
+                    "settings": {
+                        "linesAfter": 0,
+                        "linesBefore": 2,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "rTJqG"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "c30ce700-bad2-11e6-b645-b93d7aab43b9",
+            "settings": {},
+            "title": "Logging"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>When a RichTextField is rendered in an HTML template, the pseudo-HTML code that is used to store the data needs to be converted.</p>",
+                    "ref": "4fcfed00-e359-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "<p>Ex:&nbsp;<code class=\"code\">&lt;a data-linktype=\"page\" data-id=\"1\" data-fragment=\"chapter1\"&gt;</code>&nbsp;→ <code class=\"code\">&lt;a href=\"/somepage/#chapter1\"&gt;</code><br></p>",
+                    "ref": "a775d290-e359-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "kind": null
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": "<p><i>Wagtail</i>'s <code class=\"code\">richtext</code> tag filter will do the job</p>",
+                    "ref": "30919610-e35d-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "045fa6e0-e35d-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "linesAfter": 1,
+                        "linesBefore": 2,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "HvjVc"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>It will use with the same <code class=\"code\">expand_db_attributes()</code> function that is used when the widget is rendered in the admin, but in this case <i>Wagtail</i> will invoke it with <code class=\"code\">for_editor = True</code>.</p>",
+                    "ref": "a86bc3f0-e35c-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "noteRef": "d5b49f40-b426-11e6-bd6c-bf6eeaf3a1d6"
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "a3835b50-e35c-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "linesAfter": 20,
+                        "linesBefore": 0,
+                        "noteRef": "18024a30-bae1-11e6-9652-19a598cd7f8a",
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "yfK6n"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "f4d425b0-e358-11e6-a6ae-8fbbda5d6d0b",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "RichTextField rendering"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>Again, we're using another undocumented hooks here :</p>",
+                    "ref": "2213cdf0-bae1-11e6-9652-19a598cd7f8a",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "ea06f8c0-baf8-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "linesAfter": 16,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "b54WU"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>The registered hooks let Wagtail know how to expand database attributes to HTML :</p>",
+                    "ref": "07ff6560-baf9-11e6-9652-19a598cd7f8a",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "2213cdf1-bae1-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "linesAfter": 20,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "yfK6n"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>This function is also used when the data is converted in order to be rendered in an html template. (Wagtail would then use&nbsp;<code class=\"code\">for_editor = True</code>)</p>",
+                    "ref": "46227050-e35b-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "kind": "important",
+                        "noteRef": "f4d425b0-e358-11e6-a6ae-8fbbda5d6d0b"
+                    },
+                    "type": "text"
+                }
+            ],
+            "ref": "18024a30-bae1-11e6-9652-19a598cd7f8a",
+            "settings": {
+                "hiddenFromTOC": true
+            },
+            "title": "Hooks"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>This note explains how the docker environment that we use for testing / development works.</p><p>Some knowledge of Docker / docker-compose is required.</p>",
+                    "ref": "49540cc0-e5c2-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "Build",
+                    "ref": "cada75e0-e55e-11e6-9727-abb020c22770",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": [
+                        {
+                            "inserts": [
+                                {
+                                    "pos": 3,
+                                    "type": "PROJECT_DIR"
+                                }
+                            ],
+                            "text": "cd ",
+                            "type": "command"
+                        },
+                        {
+                            "text": "docker-compose build",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "11c7c490-e55e-11e6-9727-abb020c22770",
+                    "settings": {
+                        "noteRef": null
+                    },
+                    "type": "shell"
+                },
+                {
+                    "content": null,
+                    "ref": "1dcb0630-e55e-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 9,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "cE9DS"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>The <i>Dockerfile</i> defines a minimal Debian running Wagtail.</p>",
+                    "ref": "f1fefd60-e560-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "a498e970-e55e-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 10,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "Clcnt"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>We also set up a minimal <i>mysite </i>Django&nbsp;project&nbsp;and we symlink our wagtailmedium app.</p>",
+                    "ref": "2b069960-e561-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "5268d810-e561-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 8,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "eNTEN"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>Our test project has a <i>home </i>app that&nbsp;was added to the apps here :</p>",
+                    "ref": "9cf6b0a0-e561-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "7f094080-e561-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 1,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "vtkKK"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p><i>wagtailmedium</i>&nbsp;needs to be added as an app as well.</p>",
+                    "ref": "b5cdca50-e561-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "882a97e0-e561-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 1,
+                        "linesBefore": 2,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "5Qt4W"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "up / run",
+                    "ref": "1611d4e0-e55f-11e6-9727-abb020c22770",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>Once the Docker image is built, the test project can be launched :</p>",
+                    "ref": "995e0a20-e6cd-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": [
+                        {
+                            "inserts": [
+                                {
+                                    "pos": 3,
+                                    "type": "PROJECT_DIR"
+                                }
+                            ],
+                            "text": "cd ",
+                            "type": "command"
+                        },
+                        {
+                            "text": "docker-compose up website",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "1bcca8b0-e55f-11e6-9727-abb020c22770",
+                    "settings": {
+                        "noteRef": null
+                    },
+                    "type": "shell"
+                },
+                {
+                    "content": "<p>On first run, the default command will run the migrations and a fixture which creates an admin user and a pre-filled Wagtail test page.</p>",
+                    "ref": "c0193360-e6cd-11e6-9727-abb020c22770",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "427de6e0-e55f-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 5,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "Brdnz"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "4f469b60-e55f-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 5,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "vkJmM"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "f12cfb80-e6cd-11e6-9727-abb020c22770",
+                    "settings": {
+                        "linesAfter": 21,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "BTlt9"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "f3757820-e55d-11e6-9727-abb020c22770",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Docker environment"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p><i>Wagtailmedium</i> is a <a href=\"https://yabwe.github.io/medium-editor/\">Medium Editor</a> integration for the&nbsp;<a href=\"https://wagtail.io/\">Wagtail CMS</a>.</p>",
+                    "ref": "2b1286f0-b814-11e6-9f99-f91930e01b01",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "1a0877e0-b817-11e6-9f99-f91930e01b01",
+                    "settings": {
+                        "imageAlign": "center",
+                        "images": [
+                            {
+                                "ref": "1a0850d0-b817-11e6-9f99-f91930e01b01",
+                                "settings": {
+                                    "imageRef": "1a179310-b817-11e6-9f99-f91930e01b01"
+                                }
+                            }
+                        ],
+                        "selectedImageRef": "1a0850d0-b817-11e6-9f99-f91930e01b01"
+                    },
+                    "type": "imageGroup"
+                },
+                {
+                    "content": "Features",
+                    "ref": "026d4940-b8ca-11e6-9f99-f91930e01b01",
+                    "settings": {
+                        "level": 2
+                    },
+                    "type": "heading"
+                },
+                {
+                    "content": "<ul><li>Compatible with <i>Wagtail</i> internal links, plus the ability to add url fragments.<br></li><li>Configurable from the <i>Django</i> settings.<br></li><li>Ability to create custom buttons (ex: text marker).<br></li></ul>",
+                    "ref": "10abadd0-b8ca-11e6-9f99-f91930e01b01",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "About this project",
+                    "ref": "363b7bf0-e347-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {},
+                    "type": "heading"
+                },
+                {
+                    "content": "<p>This project comes with a docker based environment which you can run to test <i>wagtailmedium</i> or contribute.</p>",
+                    "ref": "3cf65aa0-e347-11e6-b28c-e9ba49ab3fd7",
+                    "settings": {},
+                    "type": "text"
+                }
+            ],
+            "ref": "f095b010-b813-11e6-9f99-f91930e01b01",
+            "settings": {},
+            "title": "What is Wagtailmedium ?"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>This note describes what is going on when a Medium rich text editor is rendered <u>in an admin page</u>.</p>",
+                    "ref": "22f25240-b5ab-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "89606f70-e356-11e6-a6ae-8fbbda5d6d0b",
+                    "settings": {
+                        "imageAlign": "center",
+                        "images": [
+                            {
+                                "ref": "1a0850d0-b817-11e6-9f99-f91930e01b01",
+                                "settings": {
+                                    "imageRef": "1a179310-b817-11e6-9f99-f91930e01b01"
+                                }
+                            }
+                        ],
+                        "selectedImageRef": "1a0850d0-b817-11e6-9f99-f91930e01b01"
+                    },
+                    "type": "imageGroup"
+                },
+                {
+                    "content": "Wagtail calls the editor hook",
+                    "ref": "6ddaebc0-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>Wagtail provides a couple <a href=\"http://docs.wagtail.io/en/v1.7/reference/hooks.html\">hooks</a>&nbsp;which we take advantage of.</p><p>We use <code class=\"code\"><a href=\"http://docs.wagtail.io/en/v1.7/reference/hooks.html#insert-editor-js\">insert_editor_js</a></code>&nbsp;in order&nbsp;to add the <code class=\"code\">wagtailmedium.js</code> bundle to the page.</p>",
+                    "ref": "ed4cf560-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "72c26a00-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 11,
+                        "linesBefore": 0,
+                        "noteRef": "9af1a5a0-badf-11e6-9652-19a598cd7f8a",
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "6V2Vv"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "The wagtail rich text widget is instantiated",
+                    "ref": "035c67c0-b436-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>Our <i>MediumRichTextArea</i> widget is similar to the default <code class=\"code\"><a href=\"https://github.com/torchbox/wagtail/blob/master/wagtail/wagtailadmin/rich_text.py#L15\">HalloRichTextArea</a></code> widget.<br></p>",
+                    "ref": "d5b7ba80-badf-11e6-9652-19a598cd7f8a",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "f1104320-b435-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 0,
+                        "linesBefore": 8,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "2frJM"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>The options come from Wagtail's&nbsp;<a href=\"https://github.com/torchbox/wagtail/search?utf8=%E2%9C%93&amp;q=WAGTAILADMIN_RICH_TEXT_EDITORS\">undocumented</a>&nbsp;<code class=\"code\">WAGTAILADMIN_RICH_TEXT_EDITORS</code> django settings :</p>",
+                    "ref": "1d29c850-b436-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "e170ef00-b435-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 6,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "7Wjzy"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "The widget is rendered",
+                    "ref": "e0e60560-b43b-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>The HTML part :</p>",
+                    "ref": "21383cf0-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "0814d800-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 6,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "NJSrc"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>The text field value is parsed in order to identify links to wagtail pages. The titles of those pages and the optional url fragment are added as attributes.</p><p>ex: <code class=\"code\">&lt;a&nbsp;data-linktype=\"page\" data-id=\"1\" data-fragment=\"chapter1\"&gt;</code>&nbsp;→&nbsp;<code class=\"code\">&lt;a data-linktype=\"page\" data-id=\"1\" title=\"Homepage\" href=\"/somepage/#fragment\"&gt;</code></p>",
+                    "ref": "d2bd7e30-b5b9-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "kind": null
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": "<p>This translation is done using Wagtail's&nbsp;<code class=\"code\">expand_db_html()</code>, which itself uses functions that we defined in special hooks :</p>",
+                    "ref": "1fa479a0-baf7-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "noteRef": "18024a30-bae1-11e6-9652-19a598cd7f8a"
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": "<p>The javascript part :</p>",
+                    "ref": "28cb2c20-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "30610180-b43c-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 1,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "BCbeK"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>This instantiates a new Medium editor using the options defined in Django settings :</p>",
+                    "ref": "944abf90-b5ba-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "b95dde20-b5ba-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "7Wjzy"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "d5b49f40-b426-11e6-bd6c-bf6eeaf3a1d6",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Widget rendering"
+        },
+        {
+            "items": [
+                {
+                    "content": "0.2.1",
+                    "ref": "73d89af0-c99a-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "heading"
+                },
+                {
+                    "content": "<p><code class=\"code\">TypeError: startswith first arg must be bytes or a tuple of bytes, not str</code><br></p><p><span data-auto-link=\"true\" data-href=\"https://code.djangoproject.com/ticket/24884\"><a href=\"https://code.djangoproject.com/ticket/24884\">https://code.djangoproject.com/ticket/24884</a></span></p>",
+                    "ref": "de8df950-c993-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "<p>We add to remove the <code class=\"code\">b</code> in&nbsp;<code class=\"code\">db_column='data'</code> :</p>",
+                    "ref": "4e4d8d40-c99a-11e5-82ac-c145e5c0a4b3",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "3ce44e90-c99a-11e5-82ac-c145e5c0a4b3",
+                    "settings": {
+                        "linesAfter": 2,
+                        "linesBefore": 5,
+                        "showIndicator": true,
+                        "syntaxAuto": true,
+                        "token": "tQmKj"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "d61e3eb0-c993-11e5-82ac-c145e5c0a4b3",
+            "settings": {},
+            "title": "Issues"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>When the page is saved, the query dict from the request is converted into pseudo-HTML format before being stored in the database.</p>",
+                    "ref": "16224be0-b689-11e6-8416-632bb8717002",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "32ebba00-b5bb-11e6-bd6c-bf6eeaf3a1d6",
+                    "settings": {
+                        "linesAfter": 11,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "W7MnV"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>As you can see above, Wagtail's <a href=\"https://github.com/torchbox/wagtail/blob/c6666c6de5e83bf94d18324858c121e6584ba47d/wagtail/wagtailcore/rich_text.py#L90\">DbWhiteLister</a> is invoked. It will find our <code class=\"code\">register_rich_text_link_handler</code> hooks and <a href=\"https://github.com/torchbox/wagtail/blob/c6666c6de5e83bf94d18324858c121e6584ba47d/wagtail/wagtailcore/rich_text.py#L123\">invoke</a> our <code class=\"code\">get_db_attributes()</code>, which is an opportunity to let Wagtail know our custom <code class=\"code\">data-fragment</code> attribute should be saved in to the pseudo-HTML .</p>",
+                    "ref": "8161fb70-bb0d-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "noteRef": "18024a30-bae1-11e6-9652-19a598cd7f8a"
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "719e8f70-bb0b-11e6-9652-19a598cd7f8a",
+                    "settings": {
+                        "linesAfter": 10,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "CGfgq"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": "<p>Lastly, the <code class=\"code\"><a href=\"http://docs.wagtail.io/en/v1.7/reference/hooks.html#construct-whitelister-element-rules\">whitelister_element_rules</a></code> from our test project are invoked.<br></p>",
+                    "ref": "85909f10-bb0f-11e6-9652-19a598cd7f8a",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "ac0db7d0-b8f4-11e6-9f99-f91930e01b01",
+                    "settings": {
+                        "linesAfter": 7,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "7bFcf"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "143135e0-b5bb-11e6-bd6c-bf6eeaf3a1d6",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Page save"
+        },
+        {
+            "items": [
+                {
+                    "content": "<p>If you want to build your custom wagtailmedium.js bundle, you can take advantage of the Docker environment.</p>",
+                    "ref": "69b064e0-e6d1-11e6-b4f7-f3442e07e72c",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "Run the test project",
+                    "ref": "bb469fe0-e6d1-11e6-b4f7-f3442e07e72c",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>Launch the website that we use to test <i>Wagtailmedium</i> in real conditions.</p>",
+                    "ref": "c34b3ca0-e6d1-11e6-b4f7-f3442e07e72c",
+                    "settings": {
+                        "noteRef": "21173660-e41e-11e6-9727-abb020c22770"
+                    },
+                    "type": "text"
+                },
+                {
+                    "content": [
+                        {
+                            "inserts": [
+                                {
+                                    "pos": 3,
+                                    "type": "PROJECT_DIR"
+                                }
+                            ],
+                            "text": "cd ",
+                            "type": "command"
+                        },
+                        {
+                            "text": "docker-compose build",
+                            "type": "command"
+                        },
+                        {
+                            "text": "docker-compose up website",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "d465b840-b3fe-11e6-a664-73ec43eb5ffc",
+                    "settings": {},
+                    "type": "shell"
+                },
+                {
+                    "content": "Run the webpack image",
+                    "ref": "f6c97510-e6d1-11e6-b4f7-f3442e07e72c",
+                    "settings": {
+                        "imageAlign": "center"
+                    },
+                    "type": "step"
+                },
+                {
+                    "content": "<p>In another terminal, launch the webpack process :</p>",
+                    "ref": "90af13f0-c3ec-11e6-88a6-6d20e1f0165e",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": [
+                        {
+                            "inserts": [
+                                {
+                                    "pos": 3,
+                                    "type": "PROJECT_DIR"
+                                }
+                            ],
+                            "text": "cd ",
+                            "type": "command"
+                        },
+                        {
+                            "text": "You can simply use docker-compose up :",
+                            "type": "result"
+                        },
+                        {
+                            "text": "docker-compose up webpack",
+                            "type": "command"
+                        },
+                        {
+                            "text": "... but you may prefer to run a shell inside the running image, then run the build.sh command yourself :",
+                            "type": "result"
+                        },
+                        {
+                            "text": "docker-compose run --rm webpack sh",
+                            "type": "command"
+                        },
+                        {
+                            "text": "./build.sh",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "edb02d30-b3fe-11e6-a664-73ec43eb5ffc",
+                    "settings": {},
+                    "type": "shell"
+                },
+                {
+                    "content": null,
+                    "ref": "2e356270-e6d2-11e6-b4f7-f3442e07e72c",
+                    "settings": {
+                        "linesAfter": 6,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "CVK4W"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "943b3e50-e6d2-11e6-b4f7-f3442e07e72c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "eQUke"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "d03e55b0-b3fe-11e6-a664-73ec43eb5ffc",
+            "settings": {
+                "firstParagraphIsDescription": true
+            },
+            "title": "Docker environment for development"
+        }
+    ],
+    "path": "/Users/dom/Dropbox/djangodev/submodules/Django-wagtailmedium/Documentation.codestory",
+    "pinnedFiles": [],
+    "roots": [
+        {
+            "accessible": true,
+            "base": "/Users/dom/Dropbox/djangodev/submodules/Django-wagtailmedium",
+            "excludeDirs": [
+                "node_modules",
+                "project/wagtailmedium/static/wagtailmedium",
+                "test_project/mysite/static"
+            ],
+            "fullPath": "/Users/dom/Dropbox/djangodev/submodules/Django-wagtailmedium",
+            "id": "fc9c7fa0-c98b-11e5-8759-d38ab8fd37fc",
+            "name": "Django-wagtailmedium",
+            "path": ""
+        },
+        {
+            "accessible": true,
+            "base": "/Users/dom/Dropbox/djangodev/submodules/Django-wagtailmedium",
+            "excludeDirs": [
+                "mysite/static"
+            ],
+            "fullPath": "/Users/dom/Dropbox/djangodev/submodules/Django-wagtailmedium/test_project",
+            "id": "d5983050-bafa-11e6-9652-19a598cd7f8a",
+            "name": "Test project",
+            "path": "test_project"
+        }
+    ],
+    "toc": {
+        "items": [
+            {
+                "ref": "f095b010-b813-11e6-9f99-f91930e01b01",
+                "type": "note"
+            },
+            {
+                "ref": "19670e40-b426-11e6-bd6c-bf6eeaf3a1d6",
+                "type": "note"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "ref": "f3757820-e55d-11e6-9727-abb020c22770",
+                                "type": "note"
+                            }
+                        ],
+                        "ref": "21173660-e41e-11e6-9727-abb020c22770",
+                        "type": "note"
+                    }
+                ],
+                "title": "Using Wagtailmedium",
+                "type": "section"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "ref": "18024a30-bae1-11e6-9652-19a598cd7f8a",
+                                        "type": "note"
+                                    }
+                                ],
+                                "ref": "d5b49f40-b426-11e6-bd6c-bf6eeaf3a1d6",
+                                "type": "note"
+                            },
+                            {
+                                "children": [],
+                                "ref": "143135e0-b5bb-11e6-bd6c-bf6eeaf3a1d6",
+                                "type": "note"
+                            },
+                            {
+                                "ref": "f4d425b0-e358-11e6-a6ae-8fbbda5d6d0b",
+                                "type": "note"
+                            }
+                        ],
+                        "title": "Widget Lifecycle",
+                        "type": "section"
+                    },
+                    {
+                        "ref": "9af1a5a0-badf-11e6-9652-19a598cd7f8a",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "5464c100-b43e-11e6-bd6c-bf6eeaf3a1d6",
+                        "type": "note"
+                    }
+                ],
+                "title": "Mechanisms",
+                "type": "section"
+            },
+            {
+                "children": [
+                    {
+                        "ref": "d03e55b0-b3fe-11e6-a664-73ec43eb5ffc",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "c30ce700-bad2-11e6-b645-b93d7aab43b9",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "2b79c340-c98d-11e5-82ac-c145e5c0a4b3",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "d61e3eb0-c993-11e5-82ac-c145e5c0a4b3",
+                        "type": "note"
+                    }
+                ],
+                "title": "Development",
+                "type": "section"
+            }
+        ],
+        "selectedNotes": [
+            "f095b010-b813-11e6-9f99-f91930e01b01"
+        ]
+    }
+}

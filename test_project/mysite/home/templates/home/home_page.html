@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block content %}
+    Connect to the <a href="/admin">admin</a> with admin / pass credentials.
+    <h2>Medium</h2>
+
+    {{ self.medium|richtext }}{#HvjVc#}
+
+    <div style="background-color: #eee; padding: 10px;">Internal representation:<br>
+    <code>{{ self.medium }}</code>
+    </div>
+
+    <h2>Hallo</h2>
+    <code>{{ self.hallo }}</code>
+
+    {{ self.hallo|richtext }}
+
+    <div style="background-color: #eee; padding: 10px;">Internal representation:<br>
+    <code>{{ self.hallo }}</code>
+    </div>
+{% endblock %}

@@ -1,0 +1,26 @@
+version: '2'
+
+# We just declare a "db" volume where the database will be saved
+volumes:
+  db:
+
+services: # #bxJda#
+  # a test project with a minimal wagtail installation
+  website: #cE9DS#
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - db:/db
+      - ./test_project/mysite:/data/wagtail/mysite
+      - ./project:/project
+  # a webpack install that used to build the wagtailmedium static bundle
+  webpack: # #CVK4W#
+    build:
+      context: .
+      dockerfile: docker/webpack/Dockerfile
+    volumes:
+      - ./project:/project
+      - ./src:/src
