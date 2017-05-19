@@ -7,7 +7,7 @@ Wagtailmedium is a Medium Editor integration for the Wagtail CMS.
 .. image:: https://raw.githubusercontent.com/dperetti/Django-wagtailmedium/master/Documentation.codestory/data/1a179310-b817-11e6-9f99-f91930e01b01.png
 
 
-**Note**: A more detailed documentation is available in `.codestory <http://codestoryapp.com>`_ format, along with a sample project to fiddle with.
+**Note**: A more detailed `documentation <https://raw.githubusercontent.com/dperetti/Django-wagtailmedium/master/Documentation%20screenshot.png>`_ is available in `.codestory <http://codestoryapp.com>`_ format, along with a sample project to fiddle with.
 
 
 Install
