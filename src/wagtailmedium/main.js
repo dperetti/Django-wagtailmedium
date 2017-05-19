@@ -7,6 +7,7 @@ import LinkPreview from './LinkPreview'
 import MediumButtonFactory from './MediumButtonFactory'
 import './wagtailmedium.less'
 import 'font-awesome-webpack'
+
 // Make MediumEditor and related globally available
 window.MediumEditor = {
   MediumEditor,

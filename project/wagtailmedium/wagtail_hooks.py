@@ -1,12 +1,9 @@
 from __future__ import absolute_import, unicode_literals
 
-from django.utils.html import escape
-
+from django.utils.html import escape, format_html_join
+from django.templatetags.static import static
 from wagtail.wagtailcore import hooks
 from wagtail.wagtailcore.models import Page
-from django.templatetags.static import static
-from django.utils.html import format_html_join
-from wagtail.wagtailcore.whitelist import attribute_rule
 from wagtail.wagtaildocs.models import get_document_model
 
 

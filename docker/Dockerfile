@@ -23,7 +23,7 @@ ADD test_project/mysite /data/wagtail/mysite
 # volume settings
 ADD project /project
 ADD setup.py setup.py
-ADD README.txt README.txt
+ADD README.rst README.rst
 
 RUN pip install -e /
 

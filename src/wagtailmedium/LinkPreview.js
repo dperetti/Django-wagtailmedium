@@ -1,7 +1,7 @@
-import MediumEditor from 'medium-editor'
 import React from 'react'
-import ReactTooltip from 'react-tooltip'
 import ReactDOM from 'react-dom'
+import MediumEditor from 'medium-editor'
+import ReactTooltip from 'react-tooltip'
 import TooltipContent from './TooltipContent'
 
 const LinkPreview = MediumEditor.extensions.anchorPreview.extend({

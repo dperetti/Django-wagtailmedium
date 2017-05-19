@@ -3,3 +3,5 @@
 project/dist
 test_project/mysite/static
 dist
+Django-wagtailmedium.sublime-project
+Django-wagtailmedium.sublime-workspace

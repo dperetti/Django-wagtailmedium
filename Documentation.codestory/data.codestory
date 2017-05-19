@@ -1,5 +1,6 @@
 {
-    "editable": false,
+    "alwaysOpenFirstNoteOnLaunch": true,
+    "editable": true,
     "fileExtensions": [
         "Dockerfile",
         "css",
@@ -28,6 +29,20 @@
             "size": {
                 "height": 62,
                 "width": 688
+            }
+        },
+        {
+            "ref": "4a23f710-3cce-11e7-9eac-9b96630fefe4",
+            "size": {
+                "height": 804,
+                "width": 1044
+            }
+        },
+        {
+            "ref": "77a52290-3cce-11e7-9eac-9b96630fefe4",
+            "size": {
+                "height": 804,
+                "width": 1044
             }
         }
     ],
@@ -64,8 +79,14 @@
         {
             "items": [
                 {
-                    "content": "<p><span data-auto-link=\"true\" data-href=\"https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs\"><a href=\"https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs\">https://pip.pypa.io/en/latest/reference/pip_install.html#editable-installs</a></span></p><p><a href=\"https://pypi.python.org/pypi/setuptools-git\"><span data-auto-link=\"true\" data-href=\"https://pypi.python.org/pypi/setuptools-git\">https://pypi.python.org/pypi/setuptools-git</span></a><br></p>",
-                    "ref": "2dff5cb0-c98d-11e5-82ac-c145e5c0a4b3",
+                    "content": "<p><a href=\"https://packaging.python.org/distributing/#requirements-for-packaging-and-distributing\"><span data-auto-link=\"true\" data-href=\"https://packaging.python.org/distributing/#requirements-for-packaging-and-distributing\">https://packaging.python.org/distributing/#requirements-for-packaging-and-distributing</span></a></p>",
+                    "ref": "7c19fd20-3cb3-11e7-9eac-9b96630fefe4",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": "<p>Testing :&nbsp;<a href=\"https://wiki.python.org/moin/TestPyPI\"><span data-auto-link=\"true\" data-href=\"https://wiki.python.org/moin/TestPyPI\">https://wiki.python.org/moin/TestPyPI</span></a></p>",
+                    "ref": "7a03ca80-3cb7-11e7-9eac-9b96630fefe4",
                     "settings": {},
                     "type": "text"
                 },
@@ -100,7 +121,7 @@
                             "type": "result"
                         },
                         {
-                            "text": "python setup.py sdist upload",
+                            "text": "twine upload dist/*",
                             "type": "command"
                         }
                     ],
@@ -215,7 +236,7 @@
                     "type": "code"
                 },
                 {
-                    "content": "Add a wagtailmedium to&nbsp;WAGTAILADMIN_RICH_TEXT_EDITORS",
+                    "content": "Add a wagtailmedium widget to&nbsp;WAGTAILADMIN_RICH_TEXT_EDITORS",
                     "ref": "f03b2550-e347-11e6-b28c-e9ba49ab3fd7",
                     "settings": {
                         "imageAlign": "center"
@@ -436,12 +457,46 @@
                 },
                 {
                     "content": "<p>Connect to the website at <a href=\"http://127.0.0.1:8000\">http://127.0.0.1:8000</a>.</p>",
-                    "ref": "e6c51bb0-e55f-11e6-9727-abb020c22770",
+                    "ref": "548d37c0-3cce-11e7-9eac-9b96630fefe4",
                     "settings": {},
                     "type": "text"
                 },
                 {
-                    "content": "<p>If you're using a local docker machine, the address to connect to might be different.</p>",
+                    "content": null,
+                    "ref": "2e95fac0-3cce-11e7-9eac-9b96630fefe4",
+                    "settings": {
+                        "imageAlign": "center",
+                        "images": [
+                            {
+                                "ref": "2e95d3b0-3cce-11e7-9eac-9b96630fefe4",
+                                "settings": {
+                                    "imageRef": "4a23f710-3cce-11e7-9eac-9b96630fefe4"
+                                }
+                            }
+                        ],
+                        "selectedImageRef": "2e95d3b0-3cce-11e7-9eac-9b96630fefe4"
+                    },
+                    "type": "imageGroup"
+                },
+                {
+                    "content": null,
+                    "ref": "7736d061-3cce-11e7-9eac-9b96630fefe4",
+                    "settings": {
+                        "imageAlign": "center",
+                        "images": [
+                            {
+                                "ref": "7736d060-3cce-11e7-9eac-9b96630fefe4",
+                                "settings": {
+                                    "imageRef": "77a52290-3cce-11e7-9eac-9b96630fefe4"
+                                }
+                            }
+                        ],
+                        "selectedImageRef": "7736d060-3cce-11e7-9eac-9b96630fefe4"
+                    },
+                    "type": "imageGroup"
+                },
+                {
+                    "content": "<p>If you're using a local docker machine, the address to connect to might be different.</p><p>If you're using Docker for Mac, it will probably be&nbsp;<a href=\"http://192.168.99.100:8000\"><span data-auto-link=\"true\" data-href=\"http://192.168.99.100:8000\">http://192.168.99.100:8000</span></a>&nbsp;.</p>",
                     "ref": "1540acc0-e560-11e6-9727-abb020c22770",
                     "settings": {
                         "kind": "important"
@@ -784,7 +839,7 @@
                     "content": null,
                     "ref": "427de6e0-e55f-11e6-9727-abb020c22770",
                     "settings": {
-                        "linesAfter": 5,
+                        "linesAfter": 7,
                         "linesBefore": 0,
                         "showIndicator": false,
                         "syntaxAuto": true,
@@ -1059,43 +1114,6 @@
                 "firstParagraphIsDescription": true
             },
             "title": "Widget rendering"
-        },
-        {
-            "items": [
-                {
-                    "content": "0.2.1",
-                    "ref": "73d89af0-c99a-11e5-82ac-c145e5c0a4b3",
-                    "settings": {},
-                    "type": "heading"
-                },
-                {
-                    "content": "<p><code class=\"code\">TypeError: startswith first arg must be bytes or a tuple of bytes, not str</code><br></p><p><span data-auto-link=\"true\" data-href=\"https://code.djangoproject.com/ticket/24884\"><a href=\"https://code.djangoproject.com/ticket/24884\">https://code.djangoproject.com/ticket/24884</a></span></p>",
-                    "ref": "de8df950-c993-11e5-82ac-c145e5c0a4b3",
-                    "settings": {},
-                    "type": "text"
-                },
-                {
-                    "content": "<p>We add to remove the <code class=\"code\">b</code> in&nbsp;<code class=\"code\">db_column='data'</code> :</p>",
-                    "ref": "4e4d8d40-c99a-11e5-82ac-c145e5c0a4b3",
-                    "settings": {},
-                    "type": "text"
-                },
-                {
-                    "content": null,
-                    "ref": "3ce44e90-c99a-11e5-82ac-c145e5c0a4b3",
-                    "settings": {
-                        "linesAfter": 2,
-                        "linesBefore": 5,
-                        "showIndicator": true,
-                        "syntaxAuto": true,
-                        "token": "tQmKj"
-                    },
-                    "type": "code"
-                }
-            ],
-            "ref": "d61e3eb0-c993-11e5-82ac-c145e5c0a4b3",
-            "settings": {},
-            "title": "Issues"
         },
         {
             "items": [
@@ -1400,10 +1418,6 @@
                     {
                         "ref": "2b79c340-c98d-11e5-82ac-c145e5c0a4b3",
                         "type": "note"
-                    },
-                    {
-                        "ref": "d61e3eb0-c993-11e5-82ac-c145e5c0a4b3",
-                        "type": "note"
                     }
                 ],
                 "title": "Development",
@@ -1411,7 +1425,7 @@
             }
         ],
         "selectedNotes": [
-            "f095b010-b813-11e6-9f99-f91930e01b01"
+            "2b79c340-c98d-11e5-82ac-c145e5c0a4b3"
         ]
     }
 }
