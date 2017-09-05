@@ -9,6 +9,12 @@ Wagtailmedium is a Medium Editor integration for the Wagtail CMS.
 
 **Note**: A more detailed documentation is available in `.codestory <http://codestoryapp.com>`_ format, along with a sample project to fiddle with.
 
+Features
+--------
+- Compatible with Wagtail internal links, plus the ability to add url fragments.
+- Configurable from the Django settings.
+- Ability to create custom buttons (ex: text marker).
+
 
 Install
 -------

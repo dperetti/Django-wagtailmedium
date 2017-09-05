@@ -1,14 +1,14 @@
 #Clcnt#
-FROM debian:8
-RUN apt-get update &&\
-  apt-get install -y python python-pip libjpeg-dev zlib1g-dev libpython-dev &&\
-  apt-get clean
+FROM python:3.6
+
+# Get and install pip latest
+RUN curl --silent --show-error --retry 5 https://bootstrap.pypa.io/get-pip.py | python3.6
 
 # for debugging
 RUN pip install ipdb
 
 # this will also trigger the install of Django
-RUN pip install wagtail==1.7
+RUN pip install wagtail==1.12.1
 
 # create a wagtail starter site
 # RUN mkdir -p /data/wagtail && cd /data/wagtail && wagtail start mysite
