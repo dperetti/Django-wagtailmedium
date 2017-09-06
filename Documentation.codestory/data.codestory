@@ -937,6 +937,24 @@
         {
             "items": [
                 {
+                    "content": [
+                        {
+                            "text": "docker-compose run --rm webpack /node_modules/.bin/webpack --config /src/webpack.config.js --optimize-minimize",
+                            "type": "command"
+                        }
+                    ],
+                    "ref": "b4bca1b0-9266-11e7-867c-7f6e91203e0a",
+                    "settings": {},
+                    "type": "shell"
+                }
+            ],
+            "ref": "a5818da0-9266-11e7-8b2d-23764f7fce9f",
+            "settings": {},
+            "title": "Building for production"
+        },
+        {
+            "items": [
+                {
                     "content": "<p>This note describes what is going on when a Medium rich text editor is rendered <u>in an admin page</u>.</p>",
                     "ref": "22f25240-b5ab-11e6-bd6c-bf6eeaf3a1d6",
                     "settings": {},
@@ -1416,6 +1434,10 @@
                         "type": "note"
                     },
                     {
+                        "ref": "a5818da0-9266-11e7-8b2d-23764f7fce9f",
+                        "type": "note"
+                    },
+                    {
                         "ref": "2b79c340-c98d-11e5-82ac-c145e5c0a4b3",
                         "type": "note"
                     }
@@ -1425,7 +1447,7 @@
             }
         ],
         "selectedNotes": [
-            "2b79c340-c98d-11e5-82ac-c145e5c0a4b3"
+            "a5818da0-9266-11e7-8b2d-23764f7fce9f"
         ]
     }
 }

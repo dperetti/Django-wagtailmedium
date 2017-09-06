@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   entry: '/src/wagtailmedium/main.js', // this is our main input
   output: {
@@ -5,6 +7,13 @@ module.exports = {
     filename: 'wagtailmedium.js', // this our output
     publicPath: '/static/wagtailmedium/',
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production'),
+      },
+    }),
+  ],
   module: {
     loaders: [
       // compile imported javascript files using babel
@@ -20,7 +29,7 @@ module.exports = {
       {
         test: /(.less|.css)$/,
        // exclude: /bootstrap\/fonts/,
-        loader: 'style!css!less',
+        loader: 'style-loader!css-loader!less-loader',
       },
       // bundle imported fonts
       {

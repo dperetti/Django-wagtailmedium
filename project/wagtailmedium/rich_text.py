@@ -1,6 +1,7 @@
 from __future__ import absolute_import, unicode_literals
 
 import json
+import six
 
 from django.forms import widgets
 from wagtail.utils.widgets import WidgetWithScript
@@ -35,7 +36,7 @@ def build_medium_js_config(options):
     """
     extensions = []
     custom_buttons = options.get('custom_buttons')
-    for name, config in custom_buttons.iteritems():
+    for name, config in six.iteritems(custom_buttons):
         config.update(dict(name=name))
         extensions.append("""
             %s: new (MediumEditor.MediumButtonFactory(%s))()

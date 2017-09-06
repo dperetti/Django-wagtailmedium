@@ -6,6 +6,6 @@ set -e
 # no database yet ? let's run the migrations and fixtures #vkJmM#
 if [ ! -f /db/db.sqlite3 ]; then
   python manage.py migrate
-  python manage.py shell -c "execfile('fixture.py')"
+  python manage.py shell -c "exec(open('fixture.py').read())"
 fi
 exec "$@"

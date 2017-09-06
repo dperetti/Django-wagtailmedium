@@ -16,6 +16,12 @@ Features
 - Configurable from the Django settings.
 - Ability to create custom buttons (ex: text marker).
 
+Features
+--------
+- Compatible with Wagtail internal links, plus the ability to add url fragments.
+- Configurable from the Django settings.
+- Ability to create custom buttons (ex: text marker).
+
 
 Install
 -------
