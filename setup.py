@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='django_wagtailmedium',
-    version='0.1',
+    version='0.2',
 
     description='Wagtailmedium is a Medium Editor integration for the Wagtail CMS.',
     long_description=long_description,
@@ -36,6 +36,7 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
 
     ],    
 )
